@@ -1,0 +1,15 @@
+Graph 1 is not satisfiable with 3 colors. It is satisfiable with 4 colors.
+This tells us that graph 1 requires at least 4 colors to color.
+RSAT gives the solution:
+v -1 -2 -3 4 -5 -6 7 -8 -9 10 -11 -12 -13 -14 15 -16 17 -18 -19 -20 -21 22 -23 -24 25 -26 -27 -28 0
+This translates to:
+Node | Color
+1      4
+2      3
+3      2
+4      3
+5      1
+6      2
+7      1
+For graph 2, the SAT instances for 4-7 colors are found to be unsatisfiable, while the one that
+uses 8 colors is satisfiable. Thus, graph 2 requires at least 8 colors to color.
